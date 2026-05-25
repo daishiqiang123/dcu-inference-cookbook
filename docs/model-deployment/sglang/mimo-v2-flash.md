@@ -86,6 +86,7 @@ export SGLANG_USE_LIGHTOP=1
 export SGLANG_KV_LAYOUT_DCU_FA=0
 export SGLANG_ENABLE_SPEC_V2=1
 export SGLANG_USE_TRITON_EXTEND_FROM_AITER=1
+export SGLANG_USE_MODELSCOPE=1
 
 sglang serve \
     --model-path hygon/MiMo-V2-Flash-Channel-INT8-w8a8 \
