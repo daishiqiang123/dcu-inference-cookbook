@@ -28,7 +28,7 @@ sglang serve \
     --model-path XiaomiMiMo/MiMo-V2-Flash \
     --pp-size 1 \
     --dp-size 2 \
-    --tp-size 8 \
+    --tp-size 4 \
     --page-size 64 \
     --trust-remote-code \
     --mem-fraction-static 0.85 \
@@ -38,7 +38,6 @@ sglang serve \
     --context-length 262144 \
     --attention-backend fa3 \
     --chunked-prefill-size -1 \
-    --enable-dp-attention \
     --speculative-algorithm EAGLE \
     --speculative-num-steps 3 \
     --speculative-eagle-topk 1 \
@@ -58,7 +57,7 @@ sglang serve \
     --model-path hygon/MiMo-V2-Flash-Channel-FP8-w8a8 \
     --pp-size 1 \
     --dp-size 2 \
-    --tp-size 8 \
+    --tp-size 4 \
     --page-size 64 \
     --trust-remote-code \
     --mem-fraction-static 0.85 \
@@ -68,7 +67,6 @@ sglang serve \
     --context-length 262144 \
     --attention-backend fa3 \
     --chunked-prefill-size -1 \
-    --enable-dp-attention \
     --speculative-algorithm EAGLE \
     --speculative-num-steps 3 \
     --speculative-eagle-topk 1 \
